@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uma página visual sobre a Suíça, seus Alpes, lagos e vilarejos.">
+  <title>Suíça — Alpes, lagos e vilarejos</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir para o início">
+      <span class="flag" aria-hidden="true"><i></i></span>
+      <span>SUÍÇA</span>
+    </a>
+
+    <nav aria-label="Navegação principal">
+      <a href="#paisagens">Paisagens</a>
+      <a href="#lugares">Lugares</a>
+      <a href="#galeria">Galeria</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">46.8182° N · 8.2275° E</p>
+        <h1>Entre lagos<br>e picos.</h1>
+        <p class="hero-copy">
+          Montanhas recortadas, água cristalina e pequenos vilarejos no coração dos Alpes.
+        </p>
+        <a class="hero-link" href="#paisagens">Explorar paisagens <span>↘</span></a>
+      </div>
+
+      <div class="hero-note">
+        <span>ALPES SUÍÇOS</span>
+        <span class="line"></span>
+        <span>EUROPA</span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Destinos em destaque">
+      <div class="ticker-track">
+        <span>ZERMATT</span><b>✦</b>
+        <span>LAUTERBRUNNEN</span><b>✦</b>
+        <span>INTERLAKEN</span><b>✦</b>
+        <span>LUCERNA</span><b>✦</b>
+        <span>GRINDELWALD</span><b>✦</b>
+        <span>ZERMATT</span><b>✦</b>
+        <span>LAUTERBRUNNEN</span><b>✦</b>
+        <span>INTERLAKEN</span><b>✦</b>
+        <span>LUCERNA</span><b>✦</b>
+        <span>GRINDELWALD</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="intro wrap" id="paisagens">
+      <div class="section-number">01</div>
+      <div class="intro-title reveal">
+        <p class="kicker">PAISAGENS</p>
+        <h2>Natureza em grande escala.</h2>
+      </div>
+      <div class="intro-text reveal">
+        <p>
+          Dos vales verdes às regiões cobertas de neve, a paisagem muda em poucos quilômetros. Lagos de origem glacial refletem algumas das montanhas mais conhecidas da Europa.
+        </p>
+      </div>
+    </section>
+
+    <section class="feature-grid wrap">
+      <article class="feature-card feature-card--large reveal">
+        <div class="photo photo--matterhorn" role="img" aria-label="Matterhorn refletido em um lago"></div>
+        <div class="card-caption">
+          <div>
+            <p>ZERMATT</p>
+            <h3>Matterhorn</h3>
+          </div>
+          <span>4.478 m</span>
+        </div>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="photo photo--wengen" role="img" aria-label="Montanhas nevadas vistas de Wengen"></div>
+        <div class="card-caption">
+          <div>
+            <p>WENGEN</p>
+            <h3>Vale alpino</h3>
+          </div>
+          <span>BERNA</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="facts" id="lugares">
+      <div class="wrap facts-inner">
+        <div class="fact reveal">
+          <strong>1.500+</strong>
+          <span>lagos espalhados pelo país</span>
+        </div>
+        <div class="fact reveal">
+          <strong>60%</strong>
+          <span>do território coberto pelos Alpes</span>
+        </div>
+        <div class="fact reveal">
+          <strong>4</strong>
+          <span>idiomas nacionais</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="places wrap">
+      <div class="section-number">02</div>
+      <div class="places-heading reveal">
+        <p class="kicker">LUGARES</p>
+        <h2>Três cenários, três ritmos.</h2>
+      </div>
+
+      <div class="place-list">
+        <article class="place-item reveal">
+          <span class="place-index">01</span>
+          <div>
+            <h3>Lauterbrunnen</h3>
+            <p>Um vale estreito cercado por paredões, cachoeiras e chalés de madeira.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </article>
+
+        <article class="place-item reveal">
+          <span class="place-index">02</span>
+          <div>
+            <h3>Zermatt</h3>
+            <p>Vilarejo alpino aos pés do Matterhorn, rodeado por trilhas e neve.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </article>
+
+        <article class="place-item reveal">
+          <span class="place-index">03</span>
+          <div>
+            <h3>Interlaken</h3>
+            <p>Entre os lagos Thun e Brienz, com acesso direto às montanhas do Oberland.</p>
+          </div>
+          <span class="arrow">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery" id="galeria">
+      <div class="wrap gallery-heading reveal">
+        <span class="section-number">03</span>
+        <div>
+          <p class="kicker">GALERIA</p>
+          <h2>Do vale à neve.</h2>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-item--wide reveal">
+          <div class="photo photo--valley"></div>
+          <figcaption>Wengen · Lauterbrunnen</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <div class="photo photo--alps"></div>
+          <figcaption>Alpes Berneses</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-item--text reveal">
+          <blockquote>Ar puro, água fria e horizonte aberto.</blockquote>
+          <span>46° 49′ N</span>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div>
+        <span class="footer-mark">+</span>
+        <p>Suíça</p>
+      </div>
+      <p>Projeto front-end · HTML & CSS</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
